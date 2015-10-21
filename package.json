@@ -4,7 +4,11 @@
   "description": "A Phosphor layout widget for building interactive dashboards.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "dependencies": {},
+  "dependencies": {
+    "phosphor-messaging": "^1.0.5",
+    "phosphor-properties": "^1.2.0",
+    "phosphor-widget": "^0.9.11"
+  },
   "devDependencies": {
     "browserify": "^11.0.1",
     "browserify-css": "^0.6.1",

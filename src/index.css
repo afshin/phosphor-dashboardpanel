@@ -5,3 +5,11 @@
 |
 | The full license is in the file LICENSE, distributed with this software.
 |----------------------------------------------------------------------------*/
+.phosphor-DashboardPanel {
+  position: relative;
+}
+
+
+.phosphor-DashboardPanel > .p-Widget {
+  position: absolute;
+}
